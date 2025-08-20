@@ -1,42 +1,59 @@
                                                              🏏 Cricket Analytics Dashboard
-📌 About
-A Streamlit web app to analyze cricket match data stored in MySQL.
-Supports Test, ODI, T20, and IPL matches with interactive queries and charts
 
-Make sure you have:
+An interactive Streamlit dashboard for analyzing cricket match data stored in MySQL databases.
+It provides insights into Test, ODI, T20, and IPL matches using SQL queries and Plotly visualizations.
 
-Python 3.8+
+Features
 
-MySQL database with tables:
+📊 Predefined SQL queries for common cricketing stats:
 
-test_matches
+Total runs scored by teams and batters
 
-odi_matches
+Wickets distribution by team and bowler
 
-t20_matches
+Dismissal types and fielder catch analysis
 
-ipl_matches
+Extras conceded by teams
 
-🎯 Features
-Connect to MySQL database
+🔍 Interactive filters (e.g., search for a specific fielder)
 
-Run predefined cricket stats queries
+📈 Visualizations with bar charts, pie charts, and tables
 
-Show results in tables & interactive charts
+🗂️ Tab-based interface for Test, ODI, T20, and IPL matches
 
-Filter by match type (Test, ODI, T20, IPL)
+Tech Stack
 
-📊 Example Queries
-Total runs by each team
+Python 3.9+
 
-Top 10 batters by runs
+Streamlit
+ – interactive UI
 
-Wickets by kind
+MySQL
+ – database backend
 
-Top bowlers by wickets
+Plotly Express
+ – data visualization
 
-Extras conceded by each team
+Example Insights
+
+Top 10 run-scorers across formats
+
+Most wickets by bowlers
+
+Most common dismissal types
+
+Fielders with most catches across formats
+
+Extras conceded by teams
+
+Future Enhancements
+
+Dynamic query builder (users can define custom queries)
+
+Player comparison across formats
 
 
+ 
 
-Search wickets by specific fielder
+Pandas
+ – data handling
